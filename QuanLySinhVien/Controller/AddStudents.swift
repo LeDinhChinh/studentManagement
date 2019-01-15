@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AddStudents: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "bg")!)
     }
 
 
