@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844591C921EE0BAD003B6DA9 /* listStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844591C821EE0BAD003B6DA9 /* listStudents.swift */; };
 		84615EBE21EDE4FC0050D8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615EBD21EDE4FC0050D8BE /* AppDelegate.swift */; };
-		84615EC021EDE4FC0050D8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615EBF21EDE4FC0050D8BE /* ViewController.swift */; };
+		84615EC021EDE4FC0050D8BE /* AddStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615EBF21EDE4FC0050D8BE /* AddStudents.swift */; };
 		84615EC321EDE4FC0050D8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84615EC121EDE4FC0050D8BE /* Main.storyboard */; };
 		84615EC521EDE4FD0050D8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84615EC421EDE4FD0050D8BE /* Assets.xcassets */; };
 		84615EC821EDE4FD0050D8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84615EC621EDE4FD0050D8BE /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844591C821EE0BAD003B6DA9 /* listStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listStudents.swift; sourceTree = "<group>"; };
 		84615EBA21EDE4FC0050D8BE /* QuanLySinhVien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLySinhVien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84615EBD21EDE4FC0050D8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84615EBF21EDE4FC0050D8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84615EBF21EDE4FC0050D8BE /* AddStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudents.swift; sourceTree = "<group>"; };
 		84615EC221EDE4FC0050D8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84615EC421EDE4FD0050D8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84615EC721EDE4FD0050D8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844591C721EE0B7B003B6DA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84615EBF21EDE4FC0050D8BE /* AddStudents.swift */,
+				844591C821EE0BAD003B6DA9 /* listStudents.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		84615EB121EDE4FC0050D8BE = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +108,8 @@
 		84615EBC21EDE4FC0050D8BE /* QuanLySinhVien */ = {
 			isa = PBXGroup;
 			children = (
+				844591C721EE0B7B003B6DA9 /* Controller */,
 				84615EBD21EDE4FC0050D8BE /* AppDelegate.swift */,
-				84615EBF21EDE4FC0050D8BE /* ViewController.swift */,
 				84615EC121EDE4FC0050D8BE /* Main.storyboard */,
 				84615EC421EDE4FD0050D8BE /* Assets.xcassets */,
 				84615EC621EDE4FD0050D8BE /* LaunchScreen.storyboard */,
@@ -256,7 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84615EC021EDE4FC0050D8BE /* ViewController.swift in Sources */,
+				84615EC021EDE4FC0050D8BE /* AddStudents.swift in Sources */,
+				844591C921EE0BAD003B6DA9 /* listStudents.swift in Sources */,
 				84615EBE21EDE4FC0050D8BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XUXX75785S;
 				INFOPLIST_FILE = QuanLySinhVien/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XUXX75785S;
 				INFOPLIST_FILE = QuanLySinhVien/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
