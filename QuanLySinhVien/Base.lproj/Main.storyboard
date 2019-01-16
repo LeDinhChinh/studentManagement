@@ -35,8 +35,9 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pRF-de-pZK">
                                                 <rect key="frame" x="0.0" y="42.5" width="315" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tên" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iDA-so-grF">
+                                                    <label opaque="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tên" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iDA-so-grF">
                                                         <rect key="frame" x="0.0" y="0.0" width="94.5" height="30"/>
+                                                        <gestureRecognizers/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -54,8 +55,9 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qqa-jt-c2v">
                                                 <rect key="frame" x="0.0" y="87.5" width="315" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-Eq-E9R">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-Eq-E9R">
                                                         <rect key="frame" x="0.0" y="0.0" width="94.5" height="30"/>
+                                                        <gestureRecognizers/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -73,7 +75,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0cf-ex-JQY">
                                                 <rect key="frame" x="0.0" y="132.5" width="315" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Số điện thoại" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZx-wh-AYF">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Số điện thoại" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZx-wh-AYF">
                                                         <rect key="frame" x="0.0" y="0.0" width="94.5" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="highlightedColor"/>
@@ -92,7 +94,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wJr-ND-Fxc">
                                                 <rect key="frame" x="0.0" y="177.5" width="315" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qph-bv-04r">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qph-bv-04r">
                                                         <rect key="frame" x="0.0" y="0.0" width="94.5" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="highlightedColor"/>
@@ -111,7 +113,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hjM-vb-wpb">
                                                 <rect key="frame" x="0.0" y="222.5" width="315" height="53"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Điểm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ueu-H7-Qne">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Điểm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ueu-H7-Qne">
                                                         <rect key="frame" x="0.0" y="0.0" width="94.5" height="53"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="highlightedColor"/>
@@ -217,6 +219,9 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="submitBtn:" destination="7KV-Wq-TRp" eventType="touchUpInside" id="7tl-z7-lde"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -250,10 +255,21 @@
                         <viewLayoutGuide key="safeArea" id="s1b-5n-4Dg"/>
                     </view>
                     <navigationItem key="navigationItem" id="dTk-Bk-94p"/>
+                    <connections>
+                        <outlet property="CDotDotTextField" destination="sZ6-TG-NwB" id="S2U-sF-Ofw"/>
+                        <outlet property="CTextField" destination="iTq-PO-NYU" id="9a4-iF-ZSL"/>
+                        <outlet property="IDTextField" destination="4Fq-Xz-wOS" id="F8V-2v-lbM"/>
+                        <outlet property="IOSTextField" destination="Q5A-qq-dbt" id="ZNO-dP-G71"/>
+                        <outlet property="JavaTextField" destination="gAQ-6R-iZN" id="DKQ-Hp-m7G"/>
+                        <outlet property="SwiftTextField" destination="6Yr-Vw-GmP" id="k8s-pc-68u"/>
+                        <outlet property="emailTextField" destination="ckm-88-ZaB" id="NT3-v3-2Yu"/>
+                        <outlet property="nameTextField" destination="byn-Ra-TEZ" id="bH5-qL-8EM"/>
+                        <outlet property="phoneNumberTextField" destination="ZWI-Tp-iyd" id="50i-V7-1fJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mf-VG-khc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1962.3188405797102" y="178.125"/>
+            <point key="canvasLocation" x="2064" y="178"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="S0i-0k-Pgw">
