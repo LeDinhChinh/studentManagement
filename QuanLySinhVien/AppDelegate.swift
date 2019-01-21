@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
-
+    var databaseName: String = "StudentsInformation.db"
+    var databasePath: String = ""
+    class var sharedInstance: AppDelegate {
+        struct Singleton {
+            static let instance = UIApplication.shared.delegate as! AppDelegate
+        }
+        return Singleton.instance
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        IQKeyboardManager.shared.enable = true
+        createAndCheckDatabase()
         return true
     }
 
@@ -41,6 +50,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func createAndCheckDatabase() {
+        var success: Bool = false
+        let fileManager = FileManager.default
+        let documentPaths: NSArray = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true) as NSArray
+        guard let documentPathsFirstObject = documentPaths.firstObject as? String else {
+            return
+        }
+        
+        self.databasePath = documentPathsFirstObject + "/" + databaseName
+        success = fileManager.fileExists(atPath: databasePath)
+        if success {
+            return
+        }
+        
+        guard let resourcePath = Bundle.main.resourcePath else {
+            fatalError()
+        }
+        
+        let databasePathFromApp: String = resourcePath + "/" + databaseName
+        do {
+            try fileManager.copyItem(atPath: databasePathFromApp, toPath: databasePath)
+        } catch {
+            
+        }
+    }
 }
 

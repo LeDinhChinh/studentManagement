@@ -11,7 +11,7 @@ protocol scoreSubject {
     func mediumscore() -> Double
 }
 
-struct Student: scoreSubject {
+struct Students: scoreSubject {
     var name: String = ""
     var ID: Int = 0
     var phoneNumber: String = ""

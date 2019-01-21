@@ -1,0 +1,6 @@
+framework module Pods_QuanLySinhVien {
+  umbrella header "Pods-QuanLySinhVien-umbrella.h"
+
+  export *
+  module * { export * }
+}

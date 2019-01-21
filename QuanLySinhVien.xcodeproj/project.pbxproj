@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570DA67A3633B90437DA1010 /* Pods_QuanLySinhVienUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2754712A5D2B45F5BB2AE858 /* Pods_QuanLySinhVienUITests.framework */; };
+		840858F521F6F91500DB2A80 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840858F421F6F91500DB2A80 /* test.swift */; };
 		844591C921EE0BAD003B6DA9 /* listStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844591C821EE0BAD003B6DA9 /* listStudents.swift */; };
 		84615EBE21EDE4FC0050D8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615EBD21EDE4FC0050D8BE /* AppDelegate.swift */; };
 		84615EC021EDE4FC0050D8BE /* AddStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615EBF21EDE4FC0050D8BE /* AddStudents.swift */; };
@@ -15,7 +17,12 @@
 		84615EC821EDE4FD0050D8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84615EC621EDE4FD0050D8BE /* LaunchScreen.storyboard */; };
 		84615ED321EDE4FD0050D8BE /* QuanLySinhVienTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615ED221EDE4FD0050D8BE /* QuanLySinhVienTests.swift */; };
 		84615EDE21EDE4FD0050D8BE /* QuanLySinhVienUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615EDD21EDE4FD0050D8BE /* QuanLySinhVienUITests.swift */; };
-		8485F68F21EED7DC00D960C5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485F68E21EED7DC00D960C5 /* Student.swift */; };
+		8485F68F21EED7DC00D960C5 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485F68E21EED7DC00D960C5 /* Students.swift */; };
+		84DF46A921F6135200A2EB04 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF46A821F6135200A2EB04 /* StudentCell.swift */; };
+		84DF46B021F622C800A2EB04 /* DataLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF46AF21F622C800A2EB04 /* DataLocal.swift */; };
+		84DF46B221F631A600A2EB04 /* StudentsInformation.db in Resources */ = {isa = PBXBuildFile; fileRef = 84DF46B121F631A000A2EB04 /* StudentsInformation.db */; };
+		E0857F15D810AF9B276AE27A /* Pods_QuanLySinhVien.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A9977DA6874E07941F19BF /* Pods_QuanLySinhVien.framework */; };
+		ECFC66BB5B9251DA0BF24948 /* Pods_QuanLySinhVienTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D12DB386B56C86548D1A9E /* Pods_QuanLySinhVienTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2754712A5D2B45F5BB2AE858 /* Pods_QuanLySinhVienUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuanLySinhVienUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D237AAE004B8AF0A5E32F1B /* Pods-QuanLySinhVienUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLySinhVienUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuanLySinhVienUITests/Pods-QuanLySinhVienUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41A9977DA6874E07941F19BF /* Pods_QuanLySinhVien.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuanLySinhVien.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BD6E5BFDB0918C300F0C2B /* Pods-QuanLySinhVienTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLySinhVienTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuanLySinhVienTests/Pods-QuanLySinhVienTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A83F79B84D8E5E8D6A8DE09 /* Pods-QuanLySinhVienUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLySinhVienUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuanLySinhVienUITests/Pods-QuanLySinhVienUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		840858F421F6F91500DB2A80 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		844591C821EE0BAD003B6DA9 /* listStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listStudents.swift; sourceTree = "<group>"; };
 		84615EBA21EDE4FC0050D8BE /* QuanLySinhVien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLySinhVien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84615EBD21EDE4FC0050D8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +63,14 @@
 		84615ED921EDE4FD0050D8BE /* QuanLySinhVienUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuanLySinhVienUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84615EDD21EDE4FD0050D8BE /* QuanLySinhVienUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanLySinhVienUITests.swift; sourceTree = "<group>"; };
 		84615EDF21EDE4FD0050D8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8485F68E21EED7DC00D960C5 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		8485F68E21EED7DC00D960C5 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		84DF46A821F6135200A2EB04 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		84DF46AF21F622C800A2EB04 /* DataLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLocal.swift; sourceTree = "<group>"; };
+		84DF46B121F631A000A2EB04 /* StudentsInformation.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = StudentsInformation.db; sourceTree = "<group>"; };
+		8D6F042DBD9A76653EBFB1F2 /* Pods-QuanLySinhVienTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLySinhVienTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuanLySinhVienTests/Pods-QuanLySinhVienTests.release.xcconfig"; sourceTree = "<group>"; };
+		B78275FEB9FAC29C8870CA00 /* Pods-QuanLySinhVien.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLySinhVien.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuanLySinhVien/Pods-QuanLySinhVien.debug.xcconfig"; sourceTree = "<group>"; };
+		C51961133BEE7A9E86789BF6 /* Pods-QuanLySinhVien.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLySinhVien.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuanLySinhVien/Pods-QuanLySinhVien.release.xcconfig"; sourceTree = "<group>"; };
+		F6D12DB386B56C86548D1A9E /* Pods_QuanLySinhVienTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuanLySinhVienTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0857F15D810AF9B276AE27A /* Pods_QuanLySinhVien.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFC66BB5B9251DA0BF24948 /* Pods_QuanLySinhVienTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,17 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570DA67A3633B90437DA1010 /* Pods_QuanLySinhVienUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D760B3FCCB79E6729F44305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78275FEB9FAC29C8870CA00 /* Pods-QuanLySinhVien.debug.xcconfig */,
+				C51961133BEE7A9E86789BF6 /* Pods-QuanLySinhVien.release.xcconfig */,
+				52BD6E5BFDB0918C300F0C2B /* Pods-QuanLySinhVienTests.debug.xcconfig */,
+				8D6F042DBD9A76653EBFB1F2 /* Pods-QuanLySinhVienTests.release.xcconfig */,
+				7A83F79B84D8E5E8D6A8DE09 /* Pods-QuanLySinhVienUITests.debug.xcconfig */,
+				3D237AAE004B8AF0A5E32F1B /* Pods-QuanLySinhVienUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		844591C721EE0B7B003B6DA9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				84615EBF21EDE4FC0050D8BE /* AddStudents.swift */,
 				844591C821EE0BAD003B6DA9 /* listStudents.swift */,
+				840858F421F6F91500DB2A80 /* test.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +131,8 @@
 				84615ED121EDE4FD0050D8BE /* QuanLySinhVienTests */,
 				84615EDC21EDE4FD0050D8BE /* QuanLySinhVienUITests */,
 				84615EBB21EDE4FC0050D8BE /* Products */,
+				4D760B3FCCB79E6729F44305 /* Pods */,
+				93408FD0D7B500DA5C77C985 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,9 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				8485F68D21EED7C900D960C5 /* Model */,
+				84DF46AE21F6199E00A2EB04 /* Views */,
 				844591C721EE0B7B003B6DA9 /* Controller */,
 				84615EBD21EDE4FC0050D8BE /* AppDelegate.swift */,
-				84615EC121EDE4FC0050D8BE /* Main.storyboard */,
+				84DF46B121F631A000A2EB04 /* StudentsInformation.db */,
 				84615EC421EDE4FD0050D8BE /* Assets.xcassets */,
 				84615EC621EDE4FD0050D8BE /* LaunchScreen.storyboard */,
 				84615EC921EDE4FD0050D8BE /* Info.plist */,
@@ -142,9 +182,29 @@
 		8485F68D21EED7C900D960C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8485F68E21EED7DC00D960C5 /* Student.swift */,
+				8485F68E21EED7DC00D960C5 /* Students.swift */,
+				84DF46A821F6135200A2EB04 /* StudentCell.swift */,
+				84DF46AF21F622C800A2EB04 /* DataLocal.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		84DF46AE21F6199E00A2EB04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84615EC121EDE4FC0050D8BE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93408FD0D7B500DA5C77C985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A9977DA6874E07941F19BF /* Pods_QuanLySinhVien.framework */,
+				F6D12DB386B56C86548D1A9E /* Pods_QuanLySinhVienTests.framework */,
+				2754712A5D2B45F5BB2AE858 /* Pods_QuanLySinhVienUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84615EE221EDE4FD0050D8BE /* Build configuration list for PBXNativeTarget "QuanLySinhVien" */;
 			buildPhases = (
+				828FDDEA454647E87746529C /* [CP] Check Pods Manifest.lock */,
 				84615EB621EDE4FC0050D8BE /* Sources */,
 				84615EB721EDE4FC0050D8BE /* Frameworks */,
 				84615EB821EDE4FC0050D8BE /* Resources */,
+				921604509A94547A5F8C6A3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84615EE521EDE4FD0050D8BE /* Build configuration list for PBXNativeTarget "QuanLySinhVienTests" */;
 			buildPhases = (
+				F7833CA2263AB4C8231907CA /* [CP] Check Pods Manifest.lock */,
 				84615ECA21EDE4FD0050D8BE /* Sources */,
 				84615ECB21EDE4FD0050D8BE /* Frameworks */,
 				84615ECC21EDE4FD0050D8BE /* Resources */,
@@ -189,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84615EE821EDE4FD0050D8BE /* Build configuration list for PBXNativeTarget "QuanLySinhVienUITests" */;
 			buildPhases = (
+				3CC7C3C1F393B4599FCA078C /* [CP] Check Pods Manifest.lock */,
 				84615ED521EDE4FD0050D8BE /* Sources */,
 				84615ED621EDE4FD0050D8BE /* Frameworks */,
 				84615ED721EDE4FD0050D8BE /* Resources */,
@@ -251,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF46B221F631A600A2EB04 /* StudentsInformation.db in Resources */,
 				84615EC821EDE4FD0050D8BE /* LaunchScreen.storyboard in Resources */,
 				84615EC521EDE4FD0050D8BE /* Assets.xcassets in Resources */,
 				84615EC321EDE4FC0050D8BE /* Main.storyboard in Resources */,
@@ -273,15 +338,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CC7C3C1F393B4599FCA078C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuanLySinhVienUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828FDDEA454647E87746529C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuanLySinhVien-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921604509A94547A5F8C6A3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuanLySinhVien/Pods-QuanLySinhVien-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuanLySinhVien/Pods-QuanLySinhVien-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7833CA2263AB4C8231907CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuanLySinhVienTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84615EB621EDE4FC0050D8BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF46A921F6135200A2EB04 /* StudentCell.swift in Sources */,
+				84DF46B021F622C800A2EB04 /* DataLocal.swift in Sources */,
 				84615EC021EDE4FC0050D8BE /* AddStudents.swift in Sources */,
-				8485F68F21EED7DC00D960C5 /* Student.swift in Sources */,
+				8485F68F21EED7DC00D960C5 /* Students.swift in Sources */,
 				844591C921EE0BAD003B6DA9 /* listStudents.swift in Sources */,
 				84615EBE21EDE4FC0050D8BE /* AppDelegate.swift in Sources */,
+				840858F521F6F91500DB2A80 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +615,7 @@
 		};
 		84615EE321EDE4FD0050D8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78275FEB9FAC29C8870CA00 /* Pods-QuanLySinhVien.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +635,7 @@
 		};
 		84615EE421EDE4FD0050D8BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51961133BEE7A9E86789BF6 /* Pods-QuanLySinhVien.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +655,7 @@
 		};
 		84615EE621EDE4FD0050D8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BD6E5BFDB0918C300F0C2B /* Pods-QuanLySinhVienTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +677,7 @@
 		};
 		84615EE721EDE4FD0050D8BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6F042DBD9A76653EBFB1F2 /* Pods-QuanLySinhVienTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +699,7 @@
 		};
 		84615EE921EDE4FD0050D8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A83F79B84D8E5E8D6A8DE09 /* Pods-QuanLySinhVienUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +720,7 @@
 		};
 		84615EEA21EDE4FD0050D8BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D237AAE004B8AF0A5E32F1B /* Pods-QuanLySinhVienUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
