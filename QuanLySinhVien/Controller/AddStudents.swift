@@ -8,8 +8,8 @@
 
 import UIKit
 
-class AddStudents: UIViewController {
-    var arrStudent: [Student] = []
+class AddStudents: UIViewController, UITextFieldDelegate {
+    var arrStudents: [Students] = []
     
     @IBOutlet weak private var nameTextField: UITextField!
     @IBOutlet weak private var IDTextField: UITextField!
@@ -20,13 +20,6 @@ class AddStudents: UIViewController {
     @IBOutlet weak private var JavaTextField: UITextField!
     @IBOutlet weak private var SwiftTextField: UITextField!
     @IBOutlet weak private var IOSTextField: UITextField!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        if let image = UIImage(named: "bg") {
-            view.backgroundColor = UIColor(patternImage: image)
-        }
-    }
     
     @IBAction func submitBtn(_ sender: Any) {
         guard let name = nameTextField.text,
@@ -42,9 +35,23 @@ class AddStudents: UIViewController {
                 return
         }
         
-        let student: Student = Student(name, id, phone, email, scoreC, scoreCDotDot, scoreJava, scoreSwift, scoreIOS)
-        arrStudent.append(student)
+        let student: Students = Students(name, id, phone, email, scoreC, scoreCDotDot, scoreJava, scoreSwift, scoreIOS)
+        DataLocal.insertRecore(name, id, phone, email, scoreC, scoreCDotDot, scoreJava, scoreSwift, scoreIOS)
+        arrStudents.append(student)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        if let image = UIImage(named: "bg") {
+            view.backgroundColor = UIColor(patternImage: image)
+        }
+        arrStudents = DataLocal.getDataStudents()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? listStudents {
+            destination.arrStudents = arrStudents
+        }
     }
     
 }
-
